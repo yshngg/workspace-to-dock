@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <schemalist>
   <schema
-        id="org.gnome.shell.extensions.workspace-to-dock"
-        path="/org/gnome/shell/extensions/workspace-to-dock/"
+        id="org.gnome.shell.extensions.typescript-template"
+        path="/org/gnome/shell/extensions/typescript-template/"
     >
     <key name="padding-inner" type="i">
       <default>8</default>

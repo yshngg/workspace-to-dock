@@ -5,7 +5,7 @@ import Shell from "gi://Shell";
 import * as Main from "resource:///org/gnome/shell/ui/main.js";
 import { Extension } from "resource:///org/gnome/shell/extensions/extension.js";
 
-export default class WorkspaceToDockExtension extends Extension {
+export default class TypeScriptTemplateExtension extends Extension {
   gsettings?: Gio.Settings;
   animationsEnabled: boolean = true;
 

@@ -6,7 +6,7 @@ import {
   gettext as _,
 } from "resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js";
 
-export default class GnomeRectanglePreferences extends ExtensionPreferences {
+export default class TypeScriptTemplatePreferences extends ExtensionPreferences {
   _settings?: Gio.Settings;
 
   fillPreferencesWindow(window: Adw.PreferencesWindow): Promise<void> {
@@ -25,7 +25,7 @@ export default class GnomeRectanglePreferences extends ExtensionPreferences {
 
     const animationEnabled = new Adw.SwitchRow({
       title: _("Enabled"),
-      subtitle: _("Wether to animate windows"),
+      subtitle: _("Whether to animate windows"),
     });
     animationGroup.add(animationEnabled);
 

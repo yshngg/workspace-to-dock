@@ -1,8 +1,8 @@
 {
-  "name": "Workspace to Dock",
-  "description": "A GNOME shell extension that transforms the activities overview's workspaces into a dock.",
-  "uuid": "workspace-to-dock@yshngg.github.io",
-  "url": "https://github.com/yshngg/workspace-to-dock",
-  "settings-schema": "org.gnome.shell.extensions.workspace-to-dock",
+  "name": "TypeScript Template",
+  "description": "A GNOME shell extension template, coded in TypeScript.",
+  "uuid": "typescript-template@yshngg.github.io",
+  "url": "https://github.com/yshngg/gnome-shell-extension-typescript-template",
+  "settings-schema": "org.gnome.shell.extensions.typescript-template",
   "shell-version": ["45", "46", "47", "48", "49"]
 }

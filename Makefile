@@ -1,7 +1,7 @@
-NAME=workspace-to-dock
+NAME=typescript-template
 DOMAIN=yshngg.github.io
 
-.PHONY: all pack install clean
+.PHONY: all pack install clean debug
 
 all: dist/extension.js
 
@@ -21,3 +21,9 @@ install: pack
 
 clean:
 	@rm -rf dist node_modules $(NAME)@$(DOMAIN).shell-extension.zip
+
+# For more infomation: https://gjs.guide/extensions/development/typescript.html
+debug:
+	# Start a nested GNOME Shell session
+	dbus-run-session gnome-shell --devkit --wayland
+	# Run `gnome-extensions enable example@gjs.guide` on the terminal inside the new session
