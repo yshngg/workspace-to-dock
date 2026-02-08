@@ -6,20 +6,25 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/example/my-extension.git"
+    "url": "git+https://github.com/yshngg/gnome-shell-extension-typescript-template.git"
   },
-  "author": "Álan Crístoffer e Sousa <acristoffers@startmail.com>",
-  "license": "LGPL-3.0-or-later",
+  "author": "Yusheng <yshngg@outlook.com>",
+  "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/example/my-extension/issues"
   },
-  "homepage": "https://github.com/example/my-extension#readme",
+  "homepage": "https://github.com/yshngg/gnome-shell-extension-typescript-template.gite",
   "sideEffects": false,
   "scripts": {
     "build": "tsc"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "@eslint/js": "^9.39.2",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0"
   },
   "dependencies": {
     "@girs/clutter-17": "^17.0.0-4.0.0-beta.38",
